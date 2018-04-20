@@ -17,6 +17,9 @@ import { DitesimplementAdminModule } from './admin/admin.module';
 import { DitesimplementAccountModule } from './account/account.module';
 import { DitesimplementEntityModule } from './entities/entity.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
+
+import { StartpageModule } from './startpage/startpage.module';
+
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
     JhiMainComponent,
@@ -39,6 +42,7 @@ import {
         DitesimplementAccountModule,
         DitesimplementEntityModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
+        StartpageModule,
     ],
     declarations: [
         JhiMainComponent,
